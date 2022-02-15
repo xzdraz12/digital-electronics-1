@@ -1,4 +1,4 @@
-# Lab 1: Jakub Zdrazil 2022
+# Lab 1: Jakub Zdrazil 2021
 
 ### De Morgan's laws
 
