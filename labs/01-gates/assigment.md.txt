@@ -1,10 +1,10 @@
-# Lab 1: Jakub Zdrazil 2021
+# Lab 1: Jakub Zdrazil 230917
 
 ### De Morgan's laws
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![Logic function](images/equations.png)
+   ![Solved logic functions](https://github.com/xzdraz12/digital-electronics-1/blob/main/labs/01-gates/nor.JPG)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
