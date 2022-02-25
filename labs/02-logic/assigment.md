@@ -1,5 +1,5 @@
 # Lab 2: Combination logic
-##Jakub Zdrazil
+## Jakub Zdrazil
 ### Truth table
 | **dec. Equivalent** | **B[1:0]** |**A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -41,7 +41,7 @@
 
 1. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with at least one assert (use BCD codes of your student ID digits as input combinations). Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
-   Last two digits of my student ID: **xxxx??**
+   Last two digits of my student ID: **xxxx17**
 
 ```vhdl
     p_stimulus : process
