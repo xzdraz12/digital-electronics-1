@@ -49,23 +49,24 @@
         -- Report a note at the beginning of stimulus process
         report "Stimulus process started" severity note;
 
-        -- Test case for last two numbers of studentID
-        s_b <= "1001"; s_a <= "0111"; wait for 100 ns;
-        -- ... and its expected outputs
-        assert ((s_B_greater_A = '1') and
-                (s_B_equals_A  = '0') and
-                (s_B_less_A    = '0'))
-        -- If false, then report an error
-        -- If true, then do not report anything
-        report "Input combination 1001, 0111 FAILED" severity error;
-
-        -- Second test case  INTENTIONAL mistake
-        s_b <= "1111"; s_a <= "0000"; wait for 100 ns;
+       	-- Test case for last two numbers of studentID: XXXX17
+        s_b <= "0001"; s_a <= "0111"; wait for 100 ns;
+        -- output
         assert ((s_B_greater_A = '0') and
                 (s_B_equals_A  = '0') and
                 (s_B_less_A    = '1'))
-        report "Input combination 1111, 0000 FAILED" severity error;
+
+        report "Input combination 0001, 0111 FAILED" 
+        severity error;
         
+        
+       -- case: simulated error
+       	s_b <= "1111"; s_a <= "0000"; wait for 100 ns;
+        assert ((s_B_greater_A = '0') and 
+        		(s_B_equals_A = '0') and 
+        		(s_B_less_A = '0'))
+        report "Input combination 1111 0000 FAILED"
+        severity error;
        
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
