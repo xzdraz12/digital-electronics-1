@@ -15,7 +15,7 @@ begin
    
 end architecture Behavioral;
 ```
-![link to my EDA Playground](https://www.edaplayground.com/x/Tt3h)
+![](https://www.edaplayground.com/x/Tt3h)
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
    ![](https://github.com/xzdraz12/digital-electronics-1/blob/main/labs/03-vivado/waveforms.JPG)
