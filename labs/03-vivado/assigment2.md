@@ -15,7 +15,7 @@ begin
    
 end architecture Behavioral;
 ```
-![](https://www.edaplayground.com/x/Tt3h)
+
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
    ![](https://github.com/xzdraz12/digital-electronics-1/blob/main/labs/03-vivado/waveforms.JPG)
@@ -45,3 +45,4 @@ end architecture Behavioral;
 #set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { f_out_2 }]; #IO_L17N_T2_A25_15 Sch=led[2]
 ...
 ```
+![Link to my EDAPlayground](https://www.edaplayground.com/x/Tt3h)
