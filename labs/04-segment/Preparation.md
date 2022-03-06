@@ -1,3 +1,6 @@
+![Schematic](https://github.com/xzdraz12/digital-electronics-1/blob/main/labs/04-segment/n4r.png)
+
+
 Complete the decoder truth table for **common anode** 7-segment display.
 
    | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
