@@ -99,5 +99,5 @@
       
     -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
       	LED(7) <= `1` when SW = "XXX0" else `0`;
-  	LED(7) <= `0` when SW = "0000"
+  	LED(7) <= `0` when SW = "0000";
    ```
