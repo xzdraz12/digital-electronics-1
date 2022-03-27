@@ -1,4 +1,4 @@
-# Lab 6: Filip Kounický 230597
+# Lab 6: Zdražil Jakub 230917
 
 ### Bidirectional counter
 
