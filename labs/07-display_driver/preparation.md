@@ -10,12 +10,10 @@ Due to the physiological properties of human vision, it is necessary that the ti
 
 1. See [schematic](https://github.com/tomas-fryza/Digital-electronics-1/blob/master/docs/nexys-a7-sch.pdf) or [reference manual](https://reference.digilentinc.com/reference/programmable-logic/nexys-a7/reference-manual) of the Nexys A7 board, find out the connection of 7-segment displays, and complete the signal timing to display four-digit value `3.142`.
 
-  ![https://lastminuteengineers.com/seven-segment-arduino-tutorial/](../04-segment/images/7-Segment-Display-Number-Formation-Segment-Contol.png)
 
-  ![Timing of seven-segment display](images/wavedrom_7-segment.png)
+![schematic](https://github.com/xzdraz12/digital-electronics-1/blob/main/labs/04-segment/n4r.png)
 
-  > The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool. The figure source code is as follows:
-  >
+
   ```javascript
  {
   signal:
@@ -44,4 +42,4 @@ Due to the physiological properties of human vision, it is necessary that the ti
   },
 }
   ```
-  ![wavedrom](images/wavedrom_7-segment.png)
+  ![wavedrom](https://github.com/xzdraz12/digital-electronics-1/blob/main/labs/07-display_driver/wavedroms.JPG)
