@@ -12,3 +12,4 @@
 ![schematic](https://github.com/xzdraz12/digital-electronics-1/blob/main/labs/04-segment/n4r.png)
 
 2. See [schematic](https://github.com/tomas-fryza/digital-electronics-1/blob/master/docs/nexys-a7-sch.pdf) or [reference manual](https://reference.digilentinc.com/reference/programmable-logic/nexys-a7/reference-manual) of the Nexys A7 board and find out to which FPGA pins Pmod ports JA, JB, JC, and JD are connected.
+![schematic 2](https://github.com/xzdraz12/digital-electronics-1/blob/main/labs/08-traffic_lights/schematic2.JPG)
