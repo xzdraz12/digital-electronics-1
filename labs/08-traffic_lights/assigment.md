@@ -111,4 +111,4 @@
 
 3. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![simulated waveforms](https://github.com/xzdraz12/digital-electronics-1/blob/main/labs/08-traffic_lights/Screenshot%20(29)%20-%20crop.png)
