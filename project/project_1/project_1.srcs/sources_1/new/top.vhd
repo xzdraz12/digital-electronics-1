@@ -51,6 +51,20 @@ begin
     -- Instance (copy) of hex_7seg entity
     hex2seg : entity work.hex_7seg
         port map(
+         data0_i => "10001",
+          data1_i => "00101",
+          data2_i => "01110",
+          data3_i => "10000",
+          data4_i => "10101",
+          data5_i => "01110",
+          data6_i => "10110",
+          data7_i => "00111",
+          
+          dp_i   => "11111111",
+        
+        
+        
+        
             hex_i    => SW,
             seg_o(6) => CA,
             seg_o(5) => CB,
@@ -64,7 +78,7 @@ begin
         );
 
     -- Connect one common anode to 3.3V
-    AN <= b"1111_1101";
+    AN <= b"0000_0000";
 
     -- Display input value on LEDs
     LED(5 downto 0) <= SW;
