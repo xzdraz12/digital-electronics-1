@@ -59,12 +59,11 @@ This board has also many other features: USB port, PIC24 port, Ethernet port, FP
 #### driver_7seg_8digits
 
 * This module is used for setting up the refresing rate of displays
-* It also 
-* It defines 3-bit combinations of the clock signal and connects it with each display
+* It defines 3-bit combinations of the clock signal and connects it with each anode
 * Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/driver_7seg_8digits.vhd)
+* TestBench code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sim_1/new/tb_driver_7seg_8digits.vhd)
  ![simulation backward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_backward.PNG)
- ![simulation forward] (https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_forward.PNG)
-
+ ![simulation forward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_forward.PNG)
 
 
 #### states_1
@@ -74,6 +73,10 @@ This board has also many other features: USB port, PIC24 port, Ethernet port, FP
 * There are two scenarios - forward and backward
 * When "forward" is enabled, the state number is increasing by every event
 * When "backward" is enabled, the state number is decreasing by every event
+* TestBench code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sim_1/new/tb_states_1.vhd)
+ ![simulation states forward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_forward_states.PNG)
+ ![simulation states backward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_backward_states.PNG)
+
 
 <a name="top"></a>
 
@@ -95,6 +98,11 @@ Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/bl
 You can also find more about this project by clicking [here](https://www.youtube.com/watch?v=lQNkORvfDw4)
 
 <a name="references"></a>
+
+## BitStream
+
+Generated Bitstream required in order to run our project on Nexys A50-T is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/top.vhd)
+
 
 ## References
 
