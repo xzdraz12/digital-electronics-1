@@ -85,7 +85,7 @@ Top module is used for connecting the signals with each output such as buttons o
 * Button R is responsible for "backward"
 * next seven signals are connected to display segments (a, b, c, d, e, f, g)
 * all segments on one display are connected to one common anode 
-<br />
+
 Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/top.vhd)
 
 <a name="video"></a>
