@@ -29,13 +29,19 @@ Text has two mods - running rightwars and running leftwards. Direction is opted 
 For this project we are using Nexys A50-T development board.
 In this project we are using these following features: eight 7-segment displays and three momentary pushbuttons.
 This board has also many other features: USB port, PIC24 port, Ethernet port, FPGA LED and reset button, VGA connector, Audio connector, Programming mode jumper, XADC, CPU reset button, Pmod ports, Temperature sensor, JTAG port, three RGB LEDs, sixteen Slide switches and LEDs, Microphone, SD/USB jumper, SD slot, power selector, DDR2 memory
+
+Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/NexysA7.PNG)
  
 <a name="modules"></a>
 
 ## VHDL modules description and simulations
 
-Write your text here.
+#### Clock Enable
 
+* In this module clock signal is declared 
+* This module also determinates how many of clock pulses are needed to generate one enable signal
+* Full code can be found ![here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/clock_enable.vhd)
+ 
 <a name="top"></a>
 
 ## TOP module description and simulations
@@ -58,3 +64,4 @@ You can also find more about this project by clicking at this YouTube link:
 2. https://github.com/tomas-fryza/digital-electronics-1/tree/master/labs/06-counter
 3. https://github.com/tomas-fryza/digital-electronics-1/tree/master/labs/07-display_driver
 4. https://github.com/tomas-fryza/digital-electronics-1/tree/master/labs/08-traffic_lights
+5. https://www.xilinx.com/content/dam/xilinx/imgs/prime/NexysA7-top-600__89503.1541089438.1280.1280.jpg
