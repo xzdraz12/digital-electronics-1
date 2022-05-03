@@ -63,6 +63,8 @@ This board has also many other features: USB port, PIC24 port, Ethernet port, FP
 * It defines 3-bit combinations of the clock signal and connects it with each anode
 * Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/driver_7seg_8digits.vhd)
 * TestBench code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sim_1/new/tb_driver_7seg_8digits.vhd)
+* By pointing the mouse on following pictures more informations are provided
+
  ![simulation backward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_backward.PNG "Simulation of the backward mode")
  ![simulation forward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_forward.PNG "Simulation of the forward mode")
 
@@ -75,6 +77,8 @@ This board has also many other features: USB port, PIC24 port, Ethernet port, FP
 * When "forward" is enabled, the state number is increasing by every event
 * When "backward" is enabled, the state number is decreasing by every event
 * TestBench code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sim_1/new/tb_states_1.vhd)
+* By pointing the mouse on following pictures more informations are provided
+
  ![simulation states forward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_forward_states.PNG "Simulation of the states when forward is enabled")
  ![simulation states backward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_backward_states.PNG "Simulation of the states when backward is enabled")
 
