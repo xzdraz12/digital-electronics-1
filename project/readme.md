@@ -36,25 +36,59 @@ This board has also many other features: USB port, PIC24 port, Ethernet port, FP
 
 ## VHDL modules description and simulations
 
-#### Clock Enable
+#### clock_enable
 
 * In this module clock signal is declared 
 * This module also determinates how many of clock pulses are needed to generate one enable signal
-* Full code can be found [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/clock_enable.vhd)
- 
+* Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/clock_enable.vhd)
+
+
+#### cnt_up_down
+
+* In this module principles of the "reset" are declared
+* Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/cnt_up_down.vhd)
+
+#### char_7seg
+
+* We used this module to specify alphabet and numbers from 0 to 9
+* Each character is represented by 5-bit number
+* Some characters are represented by the same combination because of their similarity on 7-segment display
+* Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/char_7seg.vhd)
+
+
+#### driver_7seg_8digits
+
+* This module is used for setting up the refresing rate of displays
+* It also  
+* It defines 3-bit combinations of the clock signal and connects it with each display
+* Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/driver_7seg_8digits.vhd)
+ ![simulation](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_backward.PNG)
+
+#### states_1
+
+* This module defines the order of each state in the process
+* Each state is defined in form of characters displayed on displays
+* There are two scenarios - forward and backward
+* When "forward" is enabled, the state number is increasing by every event
+* When "backward" is enabled, the state number is decreasing by every event
+
 <a name="top"></a>
 
-## TOP module description and simulations
+## TOP module description
 
-Write your text here.
+Top module is used for connecting the signals with each output such as buttons or display segments
+* Button C is responsible for "reset"
+* Button L is responsible for "forward"
+* Button R is responsible for "backward"
+* next seven signals are connected to display segments (a, b, c, d, e, f, g)
+* all segments on one display are connected to one common anode 
+Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/top.vhd)
 
 <a name="video"></a>
 
 ## Video
 
-You can also find more about this project by clicking at this YouTube link:
-
-[YouTube video](https://www.youtube.com/watch?v=lQNkORvfDw4)
+You can also find more about this project by clicking [here](https://www.youtube.com/watch?v=lQNkORvfDw4)
 
 <a name="references"></a>
 
