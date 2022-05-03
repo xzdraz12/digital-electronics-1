@@ -30,7 +30,7 @@ For this project we are using Nexys A50-T development board.
 In this project we are using these following features: eight 7-segment displays and three momentary pushbuttons.
 This board has also many other features: USB port, PIC24 port, Ethernet port, FPGA LED and reset button, VGA connector, Audio connector, Programming mode jumper, XADC, CPU reset button, Pmod ports, Temperature sensor, JTAG port, three RGB LEDs, sixteen Slide switches and LEDs, Microphone, SD/USB jumper, SD slot, power selector, DDR2 memory
 
-Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/NexysA7.PNG)
+![Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/NexysA7.PNG)
  
 <a name="modules"></a>
 
@@ -40,7 +40,7 @@ Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1
 
 * In this module clock signal is declared 
 * This module also determinates how many of clock pulses are needed to generate one enable signal
-* Full code can be found ![here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/clock_enable.vhd)
+* Full code can be found [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/clock_enable.vhd)
  
 <a name="top"></a>
 
@@ -54,7 +54,7 @@ Write your text here.
 
 You can also find more about this project by clicking at this YouTube link:
 
-![YouTube video](https://www.youtube.com/watch?v=lQNkORvfDw4)
+[YouTube video](https://www.youtube.com/watch?v=lQNkORvfDw4)
 
 <a name="references"></a>
 
