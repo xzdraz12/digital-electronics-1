@@ -77,7 +77,7 @@ This board has also many other features: USB port, PIC24 port, Ethernet port, FP
 * When "forward" is enabled, the state number is increasing by every event
 * When "backward" is enabled, the state number is decreasing by every event
 * TestBench code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sim_1/new/tb_states_1.vhd)
-* ["backward" states diagram](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/backward_diagram.JPG) ["forward" states diagram](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/forward_diagram.JPG) 
+* ["backward" states diagram](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/backward_diagram.JPG) and ["forward" states diagram](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/forward_diagram.JPG) 
 * By pointing the mouse on following pictures more informations will be provided
 
  ![simulation states forward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_forward_states.PNG "Simulation of the states when forward is enabled")
