@@ -12,7 +12,7 @@
 * [Project objectives](#objectives)
 * [Hardware description](#hardware)
 * [VHDL modules description and simulations](#modules)
-* [TOP module description and simulations](#top)
+* [TOP module description](#top)
 * [Video](#video)
 * [BitStream](#bitstream)
 * [Discussion](#discussion)
