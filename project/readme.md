@@ -31,7 +31,7 @@ For this project we are using Nexys A50-T development board.
 In this project we are using these following features: eight 7-segment displays and three momentary pushbuttons.
 This board has also many other features: USB port, PIC24 port, Ethernet port, FPGA LED and reset button, VGA connector, Audio connector, Programming mode jumper, XADC, CPU reset button, Pmod ports, Temperature sensor, JTAG port, three RGB LEDs, sixteen Slide switches and LEDs, Microphone, SD/USB jumper, SD slot, power selector, DDR2 memory
 
-![Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/NexysA7.png =100x100 "Nexys A50-T development board" )
+![Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/NexysA7.png "Nexys A50-T development board" )
  
 <a name="modules"></a>
 
