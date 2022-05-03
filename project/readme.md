@@ -14,6 +14,7 @@
 * [VHDL modules description and simulations](#modules)
 * [TOP module description and simulations](#top)
 * [Video](#video)
+* [BitStream](#bitstream)
 * [References](#references)
 
 <a name="objectives"></a>
@@ -97,13 +98,13 @@ Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/bl
 
 You can also find more about this project by clicking [here](https://www.youtube.com/watch?v=lQNkORvfDw4)
 
-<a name="references"></a>
 
+<a name="bitstream"></a>
 ## BitStream
 
 Generated Bitstream required in order to run our project on Nexys A50-T is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/top.vhd)
 
-
+<a name="references"></a>
 ## References
 
 1. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
