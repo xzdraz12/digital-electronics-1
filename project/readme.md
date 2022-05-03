@@ -15,6 +15,7 @@
 * [TOP module description and simulations](#top)
 * [Video](#video)
 * [BitStream](#bitstream)
+* [Discussion](#discussion)
 * [References](#references)
 
 <a name="objectives"></a>
@@ -106,7 +107,14 @@ You can also find more about this project by clicking [here](https://www.youtube
 <a name="bitstream"></a>
 ## BitStream
 
-Generated Bitstream required in order to run our project on Nexys A50-T board is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.runs/impl_1/top.bit)
+Generated BitStream required in order to run our project on Nexys A50-T board is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.runs/impl_1/top.bit)
+
+<a name="discussion"></a>
+## Discussion
+
+Our goal in this project was to make a running text on eight 7-segment displays. This goal was successfully achieved - text is now running. After that we added a add-on feature which allows to choose whether the text will run backwards or forwards.
+In this project we also learned how to work in teams and how to work with GitHub properly.
+We would like to thank Mr. Fryza for many useful information during the semester and for showing us the way how to dive into problematics of VHDL coding.
 
 <a name="references"></a>
 ## References
