@@ -31,7 +31,7 @@ For this project we are using Nexys A50-T development board.
 In this project we are using these following features: eight 7-segment displays and three momentary pushbuttons.
 This board has also many other features: USB port, PIC24 port, Ethernet port, FPGA LED and reset button, VGA connector, Audio connector, Programming mode jumper, XADC, CPU reset button, Pmod ports, Temperature sensor, JTAG port, three RGB LEDs, sixteen Slide switches and LEDs, Microphone, SD/USB jumper, SD slot, power selector, DDR2 memory
 
-![Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/NexysA7.png)
+![Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/NexysA7.png "Nexys A50-T development board")
  
 <a name="modules"></a>
 
@@ -63,8 +63,8 @@ This board has also many other features: USB port, PIC24 port, Ethernet port, FP
 * It defines 3-bit combinations of the clock signal and connects it with each anode
 * Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/driver_7seg_8digits.vhd)
 * TestBench code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sim_1/new/tb_driver_7seg_8digits.vhd)
- ![simulation backward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_backward.PNG)
- ![simulation forward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_forward.PNG)
+ ![simulation backward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_backward.PNG "Simulation of the backward mode")
+ ![simulation forward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_forward.PNG "Simulation of the forward mode")
 
 
 #### states_1
@@ -75,9 +75,8 @@ This board has also many other features: USB port, PIC24 port, Ethernet port, FP
 * When "forward" is enabled, the state number is increasing by every event
 * When "backward" is enabled, the state number is decreasing by every event
 * TestBench code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sim_1/new/tb_states_1.vhd)
- ![simulation states forward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_forward_states.PNG)
- ![simulation states backward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_backward_states.PNG)
-
+ ![simulation states forward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_forward_states.PNG "Simulation of the states when forward is enabled")
+ ![simulation states backward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_backward_states.PNG "Simulation of the states when backward is enabled")
 
 <a name="top"></a>
 
@@ -102,7 +101,7 @@ You can also find more about this project by clicking [here](https://www.youtube
 <a name="bitstream"></a>
 ## BitStream
 
-Generated Bitstream required in order to run our project on Nexys A50-T is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/top.vhd)
+Generated Bitstream required in order to run our project on Nexys A50-T board is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/top.vhd)
 
 <a name="references"></a>
 ## References
