@@ -105,7 +105,7 @@ You can also find more about this project by clicking [here](https://www.youtube
 <a name="bitstream"></a>
 ## BitStream
 
-Generated Bitstream required in order to run our project on Nexys A50-T board is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/top.vhd)
+Generated Bitstream required in order to run our project on Nexys A50-T board is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.runs/impl_1/top.bit)
 
 <a name="references"></a>
 ## References
