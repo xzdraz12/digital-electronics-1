@@ -108,6 +108,7 @@ You can also find more about this project by clicking [here](https://www.youtube
 ## BitStream
 
 Generated BitStream required in order to run our project on Nexys A50-T board is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.runs/impl_1/top.bit)
+
 Project in Vivado is aviable [here](https://github.com/xzdraz12/digital-electronics-1/tree/main/project/project)
 
 <a name="discussion"></a>
