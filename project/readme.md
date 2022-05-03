@@ -30,7 +30,7 @@ For this project we are using Nexys A50-T development board.
 In this project we are using these following features: eight 7-segment displays and three momentary pushbuttons.
 This board has also many other features: USB port, PIC24 port, Ethernet port, FPGA LED and reset button, VGA connector, Audio connector, Programming mode jumper, XADC, CPU reset button, Pmod ports, Temperature sensor, JTAG port, three RGB LEDs, sixteen Slide switches and LEDs, Microphone, SD/USB jumper, SD slot, power selector, DDR2 memory
 
-![Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/NexysA7.PNG)
+![Nexys A50-T development board](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/NexysA7.png)
  
 <a name="modules"></a>
 
@@ -59,10 +59,13 @@ This board has also many other features: USB port, PIC24 port, Ethernet port, FP
 #### driver_7seg_8digits
 
 * This module is used for setting up the refresing rate of displays
-* It also  
+* It also 
 * It defines 3-bit combinations of the clock signal and connects it with each display
 * Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/driver_7seg_8digits.vhd)
- ![simulation](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_backward.PNG)
+ ![simulation backward](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_backward.PNG)
+ ![simulation forward] (https://github.com/xzdraz12/digital-electronics-1/blob/main/project/pictures/tb_driver_forward.PNG)
+
+
 
 #### states_1
 
@@ -82,6 +85,7 @@ Top module is used for connecting the signals with each output such as buttons o
 * Button R is responsible for "backward"
 * next seven signals are connected to display segments (a, b, c, d, e, f, g)
 * all segments on one display are connected to one common anode 
+<br />
 Full code is aviable [here](https://github.com/xzdraz12/digital-electronics-1/blob/main/project/project/project_final.srcs/sources_1/new/top.vhd)
 
 <a name="video"></a>
